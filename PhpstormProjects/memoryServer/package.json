@@ -1,0 +1,24 @@
+{
+  "name": "bsmartserver",
+  "version": "1.0.0",
+  "description": "b-smart server side",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uriel87/bsmartServer.git"
+  },
+  "author": "Uriel Chechique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uriel87/bsmartServer/issues"
+  },
+  "homepage": "https://github.com/uriel87/bsmartServer#readme",
+  "dependencies": {
+    "mongoose": "^4.11.7"
+  },
+  "devDependencies": {}
+}
