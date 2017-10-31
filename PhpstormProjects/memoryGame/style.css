@@ -1,0 +1,70 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Frijole|Open+Sans');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #919191;
+}
+
+header h1 {
+    color: #febd11;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 90px;
+    margin: 50px 10%;
+    font-family: 'Frijole', cursive;
+}
+
+#cardsSec {
+    margin: auto;
+    width: 80%;
+}
+
+.card {
+    width: 165px;
+    height: 228px;
+    display: inline-block;
+    background-image: url(images/frontCard.jpg);
+    margin: 20px 50px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 70px #FEBD10;
+}
+
+
+.animation {
+    animation: changePositionCard 1.5s;
+    transform-style: flat;
+    transition: 0.4s 0.3s;
+    box-shadow: none;
+}
+
+.hideCard {
+    animation: changePositionCard 1.5s;
+    transform-style: flat;
+    transition: 0.4s 0.3s;
+    box-shadow: 0px 0px 70px #FEBD10;
+    background-image: url(images/frontCard.jpg);
+}
+
+.showCard {
+    box-shadow: none;
+}
+
+
+@keyframes changePositionCard {
+    100% {
+        -moz-transform: rotatey(180deg);
+        -webkit-transform: rotatey(180deg);
+        -o-transform: rotatey(180deg);
+        -ms-transform: rotatey(180deg);
+        transform: rotatey(-180deg);
+    }
+}
+

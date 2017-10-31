@@ -1,0 +1,15 @@
+
+
+.person-img img {
+    height: 110px;
+    width: 110px;
+}
+
+.person-sec {
+    margin: 20px 0px;
+}
+
+a{
+    text-decoration: none;
+    text-underline: none;
+}
